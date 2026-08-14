@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# IDEs and Editors (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+Thumbs.db
+ehthumbs.db
+
+# Machine Learning model weights and formats
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.pb
+
+# Dataset contents (ignore images but keep directories via .gitkeep)
+data/owner/*
+!data/owner/.gitkeep
+data/others/*
+!data/others/.gitkeep
+
+# Models output (ignore model saves but keep directory via .gitkeep)
+models/*
+!models/.gitkeep
+
+# Experiments output (ignore generated results but keep directory via .gitkeep)
+experiments/results/*
+!experiments/results/.gitkeep

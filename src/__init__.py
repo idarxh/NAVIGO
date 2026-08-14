@@ -1,0 +1,1 @@
+# NAVIGO src package initialization
